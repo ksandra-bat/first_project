@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import os
 
 # Загружаем переменные из локального файла .env
-load_dotenv()
+load_dotenv(ditenv_path="../.env")
 
 def print_author():
 	author=os.getenv("AUTHOR")
